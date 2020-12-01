@@ -119,11 +119,6 @@ const IndexPage = () => {
         <h2>
           <a href="/countries/">Click Here To See Country Map!</a>
         </h2>
-        <p>Run the following in your terminal!</p>
-        <pre>
-          <code>gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-leaflet</code>
-        </pre>
-        <p className="note">Note: Gatsby CLI required globally for the above command</p>
       </Container>
     </Layout>
   );
