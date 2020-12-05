@@ -120,6 +120,30 @@ const IndexPage = () => {
           <a href="/countries/">Click Here To See Country Map!</a>
         </h2>
       </Container>
+      <iframe
+        src="https://public.domo.com/cards/aAR5B"
+        width="100%"
+        height="100%"
+        marginHeight="0"
+        marginWidth="0"
+        frameBorder="0"
+      ></iframe>
+      <iframe
+        src="https://public.domo.com/cards/dyqEV"
+        width="100%"
+        height="100%"
+        marginHeight="0"
+        marginWidth="0"
+        frameBorder="0"
+      ></iframe>
+      <iframe
+        src="https://public.domo.com/cards/azrGr"
+        width="100%"
+        height="100%"
+        marginHeight="0"
+        marginWidth="0"
+        frameBorder="0"
+      ></iframe>
     </Layout>
   );
 };

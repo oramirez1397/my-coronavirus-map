@@ -111,6 +111,30 @@ const IndexPage = () => {
           <a href="/">Click Here To See US Map!</a>
         </h2>
       </Container>
+      <iframe
+        src="https://public.domo.com/cards/dJ45D"
+        width="100%"
+        height="50%"
+        marginHeight="0"
+        marginWidth="0"
+        frameBorder="0"
+      ></iframe>
+      <iframe
+        src="https://public.domo.com/cards/aMk4Q"
+        width="100%"
+        height="50%"
+        marginHeight="0"
+        marginWidth="0"
+        frameBorder="0"
+      ></iframe>
+      <iframe
+        src="https://public.domo.com/cards/eEY5N"
+        width="100%"
+        height="100%"
+        marginHeight="0"
+        marginWidth="0"
+        frameBorder="0"
+      ></iframe>
     </Layout>
   );
 };
