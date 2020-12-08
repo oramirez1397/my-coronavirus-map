@@ -26,7 +26,6 @@ const IndexPage = () => {
     // let states;
 
     try {
-      // response = await axios.get('https://corona.lmao.ninja/countries');
       response = await axios.get( 'https://corona.lmao.ninja/v2/countries' );
     } catch ( e ) {
       console.log( `Failed to fetch countries: ${e.message}`, e );
@@ -103,13 +102,10 @@ const IndexPage = () => {
   return (
     <Layout pageName="home">
       <Helmet>
-        <title>Countries Page</title>
+        <title>Covid-19 Tracker</title>
       </Helmet>
       <Map {...mapSettings} />
       <Container type="content" className="text-center home-start">
-        <h2>
-          <a href="/">Click Here To See US Map!</a>
-        </h2>
       </Container>
       <iframe
         src="https://public.domo.com/cards/dJ45D"

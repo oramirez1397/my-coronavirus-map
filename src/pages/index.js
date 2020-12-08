@@ -6,12 +6,12 @@ import Layout from 'components/Layout';
 import Container from 'components/Container';
 import Map from 'components/Map';
 const LOCATION = {
-  lat: 0,
-  lng: 0,
+  lat: 30,
+  lng: -100,
 };
 
 const CENTER = [LOCATION.lat, LOCATION.lng];
-const DEFAULT_ZOOM = 2;
+const DEFAULT_ZOOM = 4;
 const IndexPage = () => {
   /**
    * mapEffect
@@ -112,13 +112,11 @@ const IndexPage = () => {
   return (
     <Layout pageName="home">
       <Helmet>
-        <title>Home Page</title>
+        <title>Covid-19 Tracker</title>
       </Helmet>
       <Map {...mapSettings} />
       <Container type="content" className="text-center home-start">
-        <h2>
-          <a href="/countries/">Click Here To See Country Map!</a>
-        </h2>
+       
       </Container>
       <iframe
         src="https://public.domo.com/cards/aAR5B"

@@ -2,13 +2,14 @@ header {
 
   width: 100%;
   color: $white;
-  background-color: $gatsby-purple;
+  background-color: blue;
 
   .container {
     display: flex;
     justify-content: space-between;
-    height: 2.5em;
-    line-height: 2.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
   }
 
   ul,
@@ -32,9 +33,10 @@ header {
   }
 
   p {
-    font-size: 1.2em;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;
+   
   }
 
 }

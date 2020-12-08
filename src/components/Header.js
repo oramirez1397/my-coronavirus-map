@@ -13,11 +13,15 @@ const Header = () => {
     <header>
       <Container type="content">
         <p>
-          <Link to="/">{ companyName }</Link>
+          <Link to="/">C-Unit Covid Tracking</Link>
         </p>
         <ul>
           <li>
-            <Link to="/about/">About</Link>
+            <Link to="/countries/">Country Tracker</Link>
+            
+          </li>
+          <li>
+          <Link to="http://localhost:8000/">County Tracker</Link>
           </li>
           <li>
             <a href={companyUrl}>
