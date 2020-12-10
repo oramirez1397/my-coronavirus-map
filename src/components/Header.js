@@ -17,7 +17,7 @@ const Header = () => {
         </p>
         <ul>
           <li>
-            <Link to="/countries/">Country Tracker</Link>
+            <Link to="/countries/">Global Tracker</Link>
             
           </li>
           <li>

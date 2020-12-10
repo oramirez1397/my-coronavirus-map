@@ -17,11 +17,17 @@ header {
   a {
     display: flex;
     align-items: center;
+    
   }
+  
 
   ul {
     justify-content: flex-end;
     list-style: none;
+    border: 3px solid #ffffff;
+     font-weight: bold;
+    position: relative;
+    left: 280px;
     margin: 0;
     padding: 0;
   }
@@ -34,6 +40,8 @@ header {
 
   p {
     font-size: 30px;
+    position: relative;
+    left: 300px;
     font-weight: bold;
     margin: 0;
    
