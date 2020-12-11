@@ -21,7 +21,7 @@ const Header = () => {
             
           </li>
           <li>
-          <Link to="http://localhost:8000/">County Tracker</Link>
+          <Link to="/">County Tracker</Link>
           </li>
           <li>
             <a href={companyUrl}>

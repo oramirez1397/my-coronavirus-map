@@ -109,7 +109,7 @@ const IndexPage = () => {
       </Container>
       <iframe
         src="https://public.domo.com/cards/dJ45D"
-        width="100%"
+        width="50%"
         height="50%"
         marginHeight="0"
         marginWidth="0"
@@ -117,7 +117,7 @@ const IndexPage = () => {
       ></iframe>
       <iframe
         src="https://public.domo.com/cards/aMk4Q"
-        width="100%"
+        width="50%"
         height="50%"
         marginHeight="0"
         marginWidth="0"
@@ -125,8 +125,8 @@ const IndexPage = () => {
       ></iframe>
       <iframe
         src="https://public.domo.com/cards/eEY5N"
-        width="100%"
-        height="100%"
+        width="50%"
+        height="50%"
         marginHeight="0"
         marginWidth="0"
         frameBorder="0"
