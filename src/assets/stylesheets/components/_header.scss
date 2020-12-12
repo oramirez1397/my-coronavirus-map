@@ -2,7 +2,9 @@ header {
 
   width: 100%;
   color: $white;
-  background-color: blue;
+  /*background-color: blue;*/
+  background-color: #28294a;
+  font-family: 'Russo One', sans-serif;
 
   .container {
     display: flex;
@@ -15,9 +17,9 @@ header {
   ul,
   li,
   a {
+    color: white !important;
     display: flex;
     align-items: center;
-    
   }
   
 
