@@ -105,28 +105,26 @@ const IndexPage = () => {
         <title>Covid-19 Tracker</title>
       </Helmet>
       <Map {...mapSettings} />
-      <Container type="content" className="text-center home-start">
-      </Container>
       <iframe
         src="https://public.domo.com/cards/dJ45D"
-        width="50%"
-        height="50%"
+        width="46%"
+        height="46%"
         marginHeight="0"
         marginWidth="0"
         frameBorder="0"
       ></iframe>
       <iframe
         src="https://public.domo.com/cards/aMk4Q"
-        width="50%"
-        height="50%"
+        width="46%"
+        height="46%"
         marginHeight="0"
         marginWidth="0"
         frameBorder="0"
       ></iframe>
       <iframe
         src="https://public.domo.com/cards/eEY5N"
-        width="50%"
-        height="50%"
+        width="46%"
+        height="46%"
         marginHeight="0"
         marginWidth="0"
         frameBorder="0"

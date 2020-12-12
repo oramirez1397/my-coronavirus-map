@@ -4,6 +4,7 @@ import L from 'leaflet';
 import axios from 'axios';
 import Layout from 'components/Layout';
 import Container from 'components/Container';
+import Footer from 'components/Footer';
 import Map from 'components/Map';
 const LOCATION = {
   lat: 30,
@@ -115,12 +116,9 @@ const IndexPage = () => {
         <title>Covid-19 Tracker</title>
       </Helmet>
       <Map {...mapSettings} />
-      <Container type="content" className="text-center home-start">
-       
-      </Container>
-      <iframe
+      <iframe 
         src="https://public.domo.com/cards/aAR5B"
-        width="50%"
+        width="46%"
         height="50%"
         marginHeight="0"
         marginWidth="0"
@@ -128,7 +126,7 @@ const IndexPage = () => {
       ></iframe>
       <iframe
         src="https://public.domo.com/cards/dyqEV"
-        width="50%"
+        width="46%"
         height="50%"
         marginHeight="0"
         marginWidth="0"
@@ -136,12 +134,15 @@ const IndexPage = () => {
       ></iframe>
       <iframe
         src="https://public.domo.com/cards/azrGr"
-        width="50%"
+        width="46%"
         height="50%"
         marginHeight="0"
         marginWidth="0"
         frameBorder="0"
       ></iframe>
+
+      <Footer></Footer>
+
     </Layout>
   );
 };
