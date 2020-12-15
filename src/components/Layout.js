@@ -22,7 +22,7 @@ const Layout = ({ children, pageName }) => {
       <div className="wrapper">
         <Header />
         <main>{ children }</main>
-        <Footer />
+
       </div>
     </>
   );

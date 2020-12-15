@@ -1,6 +1,7 @@
 .map {
 
   position: relative;
+  margin-bottom: 32px;
 
   &,
   .map-base {
@@ -8,7 +9,6 @@
     height: 100%;
     background: white;
   }
-
 }
 
 .map-loading {
