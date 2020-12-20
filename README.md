@@ -8,11 +8,11 @@
 
 # About App
 This is a coronavirus map react app called C-Unit Covid Tracking. 
-App components: 
+### App components: 
   * Tracks Covid 19 cases both globally and by county on a map with markers
   * Each marker states the number of confirmed cases, deaths, recovered, and the last time the data was updated
   * contains 6 different charts
-Charts:
+### Charts:
   * Table of covid data of the U.S.
   * Timeline of U.S. currently infected
   * U.S. new cases day by day
