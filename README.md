@@ -21,3 +21,20 @@ This is a coronavirus map react app called C-Unit Covid Tracking.
   * Timeline of other counties total cases
 
 # How to Run
+to bulid the code, run the following in your terminal of your choice:
+### First:
+npm install
+### After:
+npm start
+
+# Accessing App
+In your browser go to http://localhost:8000/
+
+# Frameworks
+  * Gatsby.js
+  * Node.js
+  
+# Libraries
+  * React
+  * Leaflet
+
